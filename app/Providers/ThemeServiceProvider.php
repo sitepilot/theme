@@ -7,8 +7,6 @@ use Sitepilot\Framework\Support\ServiceProvider;
 
 class ThemeServiceProvider extends ServiceProvider
 {
-    private AcfService $acf;
-
     /**
      * Register theme services.
      */
