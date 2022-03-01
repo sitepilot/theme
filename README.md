@@ -1,8 +1,8 @@
 # Starter Theme
 
 <p>
-    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/sitepilot/theme/build" alt="Build Status">
-    <img src="https://img.shields.io/github/v/release/sitepilot/theme" alt="Latest Stable Version">
+    <img src="https://img.shields.io/github/workflow/status/sitepilot/theme/build" alt="Build Status">
+    <img src="https://img.shields.io/github/v/release/sitepilot/theme" alt="Latest Release">
     <img src="https://img.shields.io/github/license/sitepilot/theme" alt="License">
 </p>
 
