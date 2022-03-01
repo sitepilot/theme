@@ -4,22 +4,30 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5f2df080b0f5da6191f2cc248d0fe88",
+    "content-hash": "f8d3161038543a0cbe00d4422712ba3a",
     "packages": [
         {
             "name": "sitepilot/wp-theme",
-            "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "/home/captain/code/packages/wp-theme",
-                "reference": "740d12afcbaca7bace0f9f094a2cb53b7beac3dc"
+            "version": "1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sitepilot/wp-theme.git",
+                "reference": "cf6c69416b1132577f060f7c5fc958dfa62be67d"
             },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sitepilot/wp-theme/zipball/cf6c69416b1132577f060f7c5fc958dfa62be67d",
+                "reference": "cf6c69416b1132577f060f7c5fc958dfa62be67d",
+                "shasum": ""
+            },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "Sitepilot\\WpTheme\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0-or-later"
             ],
@@ -30,9 +38,11 @@
                 }
             ],
             "description": "WordPress theme framework by Sitepilot.",
-            "transport-options": {
-                "relative": false
-            }
+            "support": {
+                "issues": "https://github.com/sitepilot/wp-theme/issues",
+                "source": "https://github.com/sitepilot/wp-theme/tree/1.x"
+            },
+            "time": "2022-02-28T12:48:05+00:00"
         }
     ],
     "packages-dev": [],

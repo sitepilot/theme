@@ -16,14 +16,8 @@
         }
     ],
     "require": {
-        "sitepilot/wp-theme": "^1.0.0|dev-main"
+        "sitepilot/wp-theme": "^1.0.0|dev-1.x"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "~/code/packages/*"
-        }
-    ],
     "scripts": {
         "post-install-cmd": [
             "npm install"
