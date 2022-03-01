@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "sitepilot/wp-theme": "^1.0.0|dev-1.x"
+        "sitepilot/wp-theme": "^1.0.0"
     },
     "scripts": {
         "post-install-cmd": [
