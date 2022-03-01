@@ -12,13 +12,11 @@ class OptionsServiceProvider extends ServiceProvider
      */
     public function boot(AcfService $acf): void
     {
-        $page_id = $this->app->namespace('options', '-');
-
-        $acf->add_option_sub_page($page_id, 'sitepilot-menu', [
+        $acf->add_option_sub_page($this->app->namespace(), 'sitepilot-menu', [
             'page_title' => 'Theme Options'
         ]);
 
-        $acf->add_option_fields($page_id, __('General', 'sp-theme'), [[
+        $acf->add_option_fields($this->app->namespace(), __('General', 'sp-theme'), [[
             'name' => 'example_option',
             'type' => 'text'
         ]]);
