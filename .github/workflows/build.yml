@@ -21,7 +21,7 @@ jobs:
           php-version: "7.4"
 
       - name: Install PHP dependencies
-        run: composer update --no-dev
+        run: composer install --no-dev
 
       - name: Compile scripts and styles
         run: |
