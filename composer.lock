@@ -4,21 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "df7d0170f1ad2869fcc6312879e513ee",
+    "content-hash": "94f8ec21c2e333f8eb3704a05d9ad548",
     "packages": [
         {
             "name": "sitepilot/wp-theme",
-            "version": "v1.0.0",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sitepilot/wp-theme.git",
-                "reference": "8ead16e9b87b01923a2d64c6e9bd3b9fcf79e4e0"
+                "reference": "b09294fc5efad258f1137dda6c841bed41544a12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sitepilot/wp-theme/zipball/8ead16e9b87b01923a2d64c6e9bd3b9fcf79e4e0",
-                "reference": "8ead16e9b87b01923a2d64c6e9bd3b9fcf79e4e0",
+                "url": "https://api.github.com/repos/sitepilot/wp-theme/zipball/b09294fc5efad258f1137dda6c841bed41544a12",
+                "reference": "b09294fc5efad258f1137dda6c841bed41544a12",
                 "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0"
             },
             "type": "library",
             "autoload": {
@@ -39,9 +42,9 @@
             "description": "WordPress theme framework by Sitepilot.",
             "support": {
                 "issues": "https://github.com/sitepilot/wp-theme/issues",
-                "source": "https://github.com/sitepilot/wp-theme/tree/v1.0.0"
+                "source": "https://github.com/sitepilot/wp-theme/tree/v1.0.2"
             },
-            "time": "2022-03-01T13:42:06+00:00"
+            "time": "2022-03-01T14:20:11+00:00"
         }
     ],
     "packages-dev": [],
@@ -50,7 +53,9 @@
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^7.4|^8.0"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.2.0"
 }
