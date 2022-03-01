@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8d3161038543a0cbe00d4422712ba3a",
+    "content-hash": "9e76f373b5fe44198d1586fc98c7debc",
     "packages": [
         {
             "name": "sitepilot/wp-theme",
-            "version": "1.x-dev",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sitepilot/wp-theme.git",
@@ -20,7 +20,6 @@
                 "reference": "cf6c69416b1132577f060f7c5fc958dfa62be67d",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -40,7 +39,7 @@
             "description": "WordPress theme framework by Sitepilot.",
             "support": {
                 "issues": "https://github.com/sitepilot/wp-theme/issues",
-                "source": "https://github.com/sitepilot/wp-theme/tree/1.x"
+                "source": "https://github.com/sitepilot/wp-theme/tree/v1.0.0"
             },
             "time": "2022-02-28T12:48:05+00:00"
         }
@@ -51,7 +50,7 @@
     "stability-flags": {
         "sitepilot/wp-theme": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
