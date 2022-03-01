@@ -1,5 +1,11 @@
 # Starter Theme
 
+<p>
+    <a href="https://packagist.org/packages/sitepilot/theme"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/sitepilot/theme/build" alt="Build Status"></a>
+    <a href="https://packagist.org/packages/sitepilot/theme"><img src="https://img.shields.io/packagist/v/sitepilot/theme" alt="Latest Stable Version"></a>
+    <a href="https://packagist.org/packages/sitepilot/theme"><img src="https://img.shields.io/packagist/l/sitepilot/theme" alt="License"></a>
+</p>
+
 WordPress starter theme with a modern development workflow.
 
 ## Features
