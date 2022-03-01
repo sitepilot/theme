@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf2f8619a337ff18844719527cfe60ec",
+    "content-hash": "df7d0170f1ad2869fcc6312879e513ee",
     "packages": [
         {
             "name": "sitepilot/wp-theme",
