@@ -1,0 +1,25 @@
+{
+    "version": 1,
+    "settings": {
+        "color": {
+            "custom": false,
+            "palette": [
+                {
+                    "name": "Light",
+                    "slug": "sp-light",
+                    "color": "#808080"
+                },
+                {
+                    "name": "Dark",
+                    "slug": "sp-dark",
+                    "color": "#333333"
+                },
+                {
+                    "name": "Primary 500",
+                    "slug": "sp-primary-500",
+                    "color": "#4f46e5"
+                }
+            ]
+        }
+    }
+}

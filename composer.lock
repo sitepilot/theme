@@ -1,0 +1,49 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d5f2df080b0f5da6191f2cc248d0fe88",
+    "packages": [
+        {
+            "name": "sitepilot/wp-theme",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "/home/captain/code/packages/wp-theme",
+                "reference": "740d12afcbaca7bace0f9f094a2cb53b7beac3dc"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sitepilot\\WpTheme\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Nick Jansen",
+                    "email": "n.jansen@sitepilot.io"
+                }
+            ],
+            "description": "WordPress theme framework by Sitepilot.",
+            "transport-options": {
+                "relative": false
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "sitepilot/wp-theme": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

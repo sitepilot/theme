@@ -1,0 +1,23 @@
+{
+    "name": "theme",
+    "version": "1.0.0",
+    "description": "A simple WordPress starter theme by Sitepilot.",
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "author": "Sitepilot",
+    "license": "GPL-2.0-or-later",
+    "devDependencies": {
+        "tailwindcss": "^3.0.7",
+        "laravel-mix": "^6.0.39"
+    },
+    "dependencies": {
+        "@tailwindcss/line-clamp": "^0.3.0"
+    }
+}

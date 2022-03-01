@@ -1,0 +1,32 @@
+{
+    "name": "sitepilot/theme",
+    "description": "WordPress starter theme with a modern development workflow.",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Sitepilot\\Theme\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nick Jansen",
+            "email": "n.jansen@sitepilot.io"
+        }
+    ],
+    "require": {
+        "sitepilot/wp-theme": "^1.0.0|dev-main"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "~/code/packages/*"
+        }
+    ],
+    "scripts": {
+        "post-install-cmd": [
+            "npm install"
+        ]
+    }
+}
