@@ -12,7 +12,7 @@ if (!class_exists(Application::class)) {
     });
 }
 
-new Application('sp-theme', __FILE__, [
+new Application(basename(__DIR__), __FILE__, [
     // Theme service providers
     \Sitepilot\Theme\Providers\ThemeServiceProvider::class,
     \Sitepilot\Theme\Providers\BlocksServiceProvider::class,
@@ -28,6 +28,8 @@ new Application('sp-theme', __FILE__, [
 if (!function_exists('sp_theme')) {
     function sp_theme(): ?Application
     {
-        return Application::app('sp-theme');
+        return Application::app(
+            basename(__DIR__)
+        );
     }
 }
