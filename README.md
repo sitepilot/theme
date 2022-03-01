@@ -13,7 +13,7 @@ WordPress starter theme with a modern development workflow.
 * Harness the power of dependency injection thanks to [Sitepilot](https://github.com/sitepilot/sitepilot-plugin)
 * Compile theme assets with [Laravel Mix](https://laravel-mix.com)
 * Out of the box support for [TailwindCSS](https://tailwindcss.com/)
-* Build and deploy theme files with a [GitHub Actions](.github/workflows/build.yml)
+* Build and deploy theme files with [GitHub Actions](.github/workflows/build.yml)
 
 ## Requirements
 
