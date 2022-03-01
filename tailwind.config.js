@@ -5,9 +5,8 @@ module.exports = {
   prefix: 'sp-',
   content: [
     "./theme.json",
-    "./src/*.php",
-    "./inc/*.php",
-    "./resources/views/**/*.blade.php"
+    "./app/**/*.php",
+    "./resources/**/*.php"
   ],
   theme: {
     container: {
