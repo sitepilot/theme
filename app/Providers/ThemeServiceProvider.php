@@ -39,8 +39,8 @@ class ThemeServiceProvider extends ServiceProvider
      */
     public function filter_template_slug(): ?string
     {
-        if (is_single()) {
-            //return 'single-post';
+        if ('post' == get_post_type() && is_single()) {
+            return 'single-post';
         }
 
         return null;
