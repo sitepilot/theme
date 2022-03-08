@@ -1,7 +1,4 @@
 {
-    "name": "theme",
-    "version": "1.0.0",
-    "description": "A simple WordPress starter theme by Sitepilot.",
     "scripts": {
         "dev": "npm run development",
         "development": "mix",
@@ -12,7 +9,7 @@
         "production": "mix --production"
     },
     "author": "Sitepilot",
-    "license": "GPL-2.0-or-later",
+    "license": "GPL-3.0-or-later",
     "devDependencies": {
         "tailwindcss": "^3.0.7",
         "laravel-mix": "^6.0.39"
