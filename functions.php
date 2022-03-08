@@ -21,8 +21,7 @@ new Application(basename(__DIR__), __FILE__, [
     // Package service providers
     \Sitepilot\WpTheme\Acf\AcfServiceProvider::class,
     \Sitepilot\WpTheme\Post\PostServiceProvider::class,
-    \Sitepilot\WpTheme\Template\TemplateServiceProvider::class,
-    //\Sitepilot\WpTheme\BeaverBuilder\BeaverBuilderServiceProvider::class,
+    \Sitepilot\WpTheme\Element\ElementServiceProvider::class
 ]);
 
 if (!function_exists('sp_theme')) {
