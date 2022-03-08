@@ -2,7 +2,6 @@
 
 namespace Sitepilot\Theme\Providers;
 
-use Sitepilot\WpTheme\Acf\AcfService;
 use Sitepilot\Framework\Support\ServiceProvider;
 
 class ThemeServiceProvider extends ServiceProvider
@@ -23,7 +22,7 @@ class ThemeServiceProvider extends ServiceProvider
     {
         $this->add_action('wp_enqueue_scripts', 'enqueue_scripts', 15);
         $this->add_action('enqueue_block_editor_assets', 'enqueue_scripts', 15);
-        $this->add_filter($this->app->namespace('template/slug'), 'filter_template_slug');
+        $this->add_filter($this->app->namespace('element/template'), 'filter_template_slug');
     }
 
     /**
