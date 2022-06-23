@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "sitepilot/wp-theme",
-            "version": "v1.0.2",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sitepilot/wp-theme.git",
-                "reference": "b09294fc5efad258f1137dda6c841bed41544a12"
+                "reference": "d9dff1f5795d12aecc41156200f6e1d15b994a19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sitepilot/wp-theme/zipball/b09294fc5efad258f1137dda6c841bed41544a12",
-                "reference": "b09294fc5efad258f1137dda6c841bed41544a12",
+                "url": "https://api.github.com/repos/sitepilot/wp-theme/zipball/d9dff1f5795d12aecc41156200f6e1d15b994a19",
+                "reference": "d9dff1f5795d12aecc41156200f6e1d15b994a19",
                 "shasum": ""
             },
             "require": {
@@ -42,9 +42,9 @@
             "description": "WordPress theme framework by Sitepilot.",
             "support": {
                 "issues": "https://github.com/sitepilot/wp-theme/issues",
-                "source": "https://github.com/sitepilot/wp-theme/tree/v1.0.2"
+                "source": "https://github.com/sitepilot/wp-theme/tree/v1.0.6"
             },
-            "time": "2022-03-01T14:20:11+00:00"
+            "time": "2022-06-23T06:46:21+00:00"
         }
     ],
     "packages-dev": [],
